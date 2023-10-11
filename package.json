@@ -1,0 +1,42 @@
+{
+  "name": "@transdevoficial/ds-assets",
+  "version": "1.0.2-alpha.3",
+  "description": "Lib for ds-assets tokens by TransDev",
+  "main": "index.js",
+  "author": {
+    "email": "diana_martine@outlook.com",
+    "name": "Diana Martine",
+    "url": "https://github.com/dianamartine"
+  },
+  "maintainers": [
+    {
+      "email": "diana_martine@outlook.com",
+      "name": "Diana Martine",
+      "url": "https://github.com/dianamartine"
+    }
+  ],
+  "license": "MIT",
+  "keywords": [
+    "design",
+    "assets",
+    "transdev"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TransDevOficial/transdev-ds-assets.git"
+  },
+  "files": [
+    "dist",
+    "src/assets"
+  ],
+  "scripts": {
+    "build": "rimraf dist && node src/build.js"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "devDependencies": {
+    "fs-extra": "^10.1.0",
+    "rimraf": "^3.0.2"
+  }
+}
